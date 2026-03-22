@@ -13,9 +13,6 @@ export default function Page() {
         <Link href="/(auth)/sign-in">
           <Text>Sign in</Text>
         </Link>
-        <Link href="/(auth)/sign-up">
-          <Text>Sign up</Text>
-        </Link>
       </Show>
       <Show when="signed-in">
         <Text>Hello {user?.emailAddresses[0].emailAddress}</Text>
